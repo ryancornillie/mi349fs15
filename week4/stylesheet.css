@@ -1,0 +1,54 @@
+body{
+background-color: red;
+}
+h1{
+color: black;
+text-align: center;
+font-family: 'Bangers', cursive;
+font-size: 100px;
+background-color: yellow;
+}
+h2{
+text-align: center;
+font-Size: 40px;
+}
+h3{
+text-align: center;
+margin: 20px 300px;
+font-size: 25px;
+
+}
+metacritic{
+padding:100px;
+}
+.Names{
+font-size: 25px;
+text-align: center;
+
+}	
+.Personas{
+Display: center;
+text-align: center;
+}
+.Description{
+Display: center;
+text-align: center;
+}
+.desc{
+padding: 70px;
+}
+.name{
+padding: 70px;
+}
+.COMPS{
+text-align: center;
+}
+.CompNames{
+text-align: center
+}
+.compname{
+font-Size: 20px;
+text-align: center;
+padding: 40px;
+}
+
