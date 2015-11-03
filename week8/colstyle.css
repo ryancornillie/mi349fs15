@@ -1,0 +1,29 @@
+h1{
+	text-align: center;	
+}
+
+.column{
+	float: left;
+	display: inline;
+	margin: 0 auto;
+	padding: 10px;
+}
+
+@media (min-width: 400px) {
+
+    .column {
+        width: 100%;
+    }
+}
+
+@media (min-width: 800px) {
+    .column {
+        width: 40%;
+    }
+}
+@media (min-width: 1200px) {
+
+    .column {
+        width: 32%;
+    }
+}
