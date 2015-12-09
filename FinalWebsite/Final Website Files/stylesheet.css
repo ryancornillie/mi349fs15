@@ -1,0 +1,175 @@
+html{
+	height: auto;
+}
+body{
+	background-image: url("moviebackground.jpg");
+	background-size: cover;
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	
+}
+.header{
+	font-family:'Bangers', cursive;
+	color: white;
+	font-size: 500%;
+	padding: 0;
+	margin-bottom: 0;
+	text-align: center;
+	background-color: black;
+}
+
+
+.navBar {
+    list-style-type: none;
+    margin: 0;
+	padding: 0;
+    overflow: hidden;
+    background-color: #333;
+	text-align: center;
+}
+
+.navItem {
+    display: inline;
+}
+
+.navItem a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navItem a:hover {
+    background-color: #111;
+}
+.layer{
+	margin:0;
+	padding: 0;
+}
+
+.content{
+	background-color: rgba(0,0,0,0.75);
+	margin: 0 auto;
+	margin-top: 50px;
+	width: 75%;
+	text-align: center;
+	padding-top: 20px;
+	border-radius: 25px;
+	margin-bottom:20px;
+}
+
+
+span{
+	font-family:'Bangers', cursive;
+	color: black;
+	font-size: 300%;
+	border-radius: 10px;
+	padding: 10px;
+	display: block;
+}
+
+
+.red span{
+	background-color: #ff0000;
+}
+.yellow span{
+	background-color:yellow;
+}
+
+.list {
+	border-radius: 0 0 25px 25px;
+	color: white;
+	padding: 5px;
+}
+.gray span{
+	background-color: darkgray;
+}
+.orange span{
+	background-color: #ff3300;
+}
+.purple span{
+	background-color: #cc00ff;
+}
+.blue span{
+	background-color: #0099cc;
+}
+.green span{
+	background-color:#00cc00;
+}
+.review{
+	display: none;
+}
+
+.score{
+	font-family:'Bangers', cursive;
+	color: white;
+	font-size: 300%;
+	padding-bottom:20px;
+}
+h2{
+	padding: 0;
+	margin-bottom: 0;
+}
+
+h4{
+	margin-top: 0;
+	margin-bottom: 10px;
+}
+
+h3{
+	color: white;
+	margin: 10px;
+	padding: 5px;
+}
+.mainWrapper{
+	background: rgba(0,0,0,0.6);
+	width: 75%;
+	height: 100%;
+	margin: 0 auto;
+	padding-bottom:500px;
+	overflow: hidden;
+}
+
+p{
+	color: white;
+	font-size: 150%;
+	margin: 15px;
+	padding: 15px;
+	text-align: center;
+}
+
+
+@media (min-width: 1000px) {
+
+    .column {
+        width: 45%;
+		padding: 10px;
+		color: white;
+		margin-left: 2%;
+		display:inline-block;
+    }
+	
+}
+
+@media(max-width: 600px){
+	.header{
+		font-size: 300%;
+	}
+	span{
+		font-size: 150%;
+	}
+	h2{
+		font-size:100%;
+	}
+	h4{
+		font-size:75%;
+	}
+	p{
+		font-size: 90%;
+	}
+	.mainWrapper{
+		width: 100%;
+	}
+}
